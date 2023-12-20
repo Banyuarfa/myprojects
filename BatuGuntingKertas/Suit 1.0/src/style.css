@@ -1,0 +1,18 @@
+main {
+  border: 1px black solid;
+  height: 30em;
+  width: 30em;
+  margin: auto;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#bot {
+  color: red;
+}
+#player {
+  color: blue;
+}

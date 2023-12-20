@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  color: grey;
+  font-weight: bold;
+  font-size: large;
+}
+
+body {
+  position: relative;
+}
+
+.container {
+  background-color: rgb(54, 54, 54);
+  height: 30rem;
+  width: 12rem;
+  position: relative;
+  top: 3em;
+  left: 42%;
+}
+
+.container div:first-child {
+  height: 15rem;
+  width: 12rem;
+  background-color: black;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+.container div:last-child {
+  display: grid;
+  grid-template-areas: "a a a a";
+}
+button:nth-child(17),
+button:nth-child(18),
+button:nth-child(19) {
+  position: relative;
+  bottom: 3rem;
+}
+
+button {
+  width: 3rem;
+  height: 3rem;
+  outline-style: none;
+  background: none;
+  border: none;
+}
+button:hover {
+  background-color: black;
+}
+#equal {
+  height: 6rem;
+}

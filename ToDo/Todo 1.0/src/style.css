@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  font-family: sans-serif;
+}
+main {
+  position: relative;
+  top: 5em;
+  margin: auto;
+  box-shadow: 0 1em 4em;
+  width: 15em;
+  border-radius: 1em;
+  -webkit-border-radius: 1em;
+  -moz-border-radius: 1em;
+  -ms-border-radius: 1em;
+  -o-border-radius: 1em;
+}
+form {
+  text-align: center;
+}
+section {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #686868;
+  width: 15em;
+}
+li {
+  position: relative;
+  color: #fff;
+}
+li button {
+  background: none;
+  border: none;
+  color: red;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+#clear {
+  border: none;
+  background: #fff;
+  color: red;
+}
+.done {
+  text-decoration: line-through;
+  color: #363636;
+}

@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: aliceblue;
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #1f1f1f;
+  position: relative;
+  height: 100%;
+}
+
+i {
+  color: grey;
+}
+
+/*nav*/
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #282828;
+  height: 64px;
+  box-shadow: 0 0 5px black;
+  position: fixed;
+  width: 100%;
+}
+
+.nav1 {
+  display: flex;
+  align-items: center;
+  color: aliceblue;
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: x-large;
+  position: relative;
+}
+.nav1 .icon {
+  margin: 28px;
+}
+.icon:hover {
+  color: aliceblue;
+  cursor: pointer;
+}
+.nav1 span {
+  display: flex;
+  align-items: center;
+}
+.nav1 span:hover {
+  cursor: pointer;
+}
+
+.nav2 {
+  display: flex;
+  align-items: center;
+  background-color: #282828;
+  position: relative;
+}
+.nav2 label {
+  margin: 0 20px;
+}
+.nav2 input[type="search"] {
+  background-color: #282828;
+  height: 36px;
+  width: 390px;
+  border-color: #464646;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  color: aliceblue;
+}
+
+.nav3 {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.nav3 button {
+  height: 36px;
+  width: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  color: aliceblue;
+  font-weight: bolder;
+  background-color: #282828;
+  border: 1px solid #464646;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.nav3 img {
+  height: 36px;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+  margin: 28px;
+}
+.nav3 img:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+}
+form {
+  width: 15em;
+  background-color: transparent;
+  color: aliceblue;
+  font-family: sans-serif;
+  text-align: center;
+  margin: auto;
+  margin-top: 10em;
+  
+}
+fieldset {
+  background-color: rgb(31, 31, 31);
+  padding-top: 1em;
+  border-radius: 1em;
+  -webkit-border-radius: 1em;
+  -moz-border-radius: 1em;
+  -ms-border-radius: 1em;
+  -o-border-radius: 1em;
+}
+legend {
+  font-weight: bolder;
+}
+input{
+  margin-bottom: 1em;
+}
+a{
+  color: aliceblue;
+  font-size: smaller;
+  position: relative;
+}
+a:first-child{
+  
+  right: 2.6em;
+  bottom: 1em;
+}
+button{
+  width: 12em;
+  height: 2em;
+  color: aliceblue;
+  background-color: dodgerblue;
+  border: none;
+  border-radius: 1px;
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  -ms-border-radius: 1px;
+  -o-border-radius: 1px;
+  margin-bottom: 1em;
+}
+a:last-child {
+  bottom: 0.6em;
+}

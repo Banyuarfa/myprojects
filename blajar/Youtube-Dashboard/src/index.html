@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/Youtube-Dashboard/src/css/nav.css" />
+    <link rel="stylesheet" href="/Youtube-Dashboard/src/css/sidebar.css" />
+    <link rel="stylesheet" href="/Youtube-Dashboard/src/css/dasbor.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav1">
+        <i class="fa-solid fa-bars bars icon" id="icon"></i>
+        <span>
+          <i class="fa-brands fa-youtube" style="color: red"></i>
+          <p>Studio</p>
+        </span>
+      </div>
+
+      <div class="nav2">
+        <label for="telusuri"
+          ><i class="fa-solid fa-magnifying-glass"></i
+        ></label>
+        <input
+          placeholder=" Telusuri Konten Anda Di Sini"
+          type="search"
+          name=""
+          id="telusuri"
+        />
+      </div>
+
+      <div class="nav3">
+        <i class="fa-solid fa-question icon" style="margin: 0 16px"></i
+        ><button><i class="fa-solid fa-plus" style="color: red"></i>BUAT</button
+        ><img src="/Youtube-Dashboard/assets/600img.jpg" alt="" />
+      </div>
+    </nav>
+
+    <div class="container">
+      <!-- Sidebar -->
+      <section id="sidebar" class="sidebar close">
+        <header>
+          <img src="/Youtube-Dashboard/assets/600img.jpg" alt="" />
+          <div class="header-p">
+            <p>Channel Anda</p>
+            <p>Anyu_</p>
+          </div>
+        </header>
+        <ul>
+          <li>
+            <a class="menu" href="#dasbor"
+              ><span><i class="fa-solid fa-house fa-lg"></i></span>
+              <p>Dasbor</p></a
+            >
+          </li>
+          <li>
+            <a class="menu" href="#"
+              ><span><i class="fa-regular fa-circle-play fa-lg"></i></span>
+              <p>Konten</p></a
+            >
+          </li>
+          <li>
+            <a class="menu" href="#"
+              ><span><i class="fa-solid fa-chart-simple fa-lg"></i></span>
+              <p>Analytics</p></a
+            >
+          </li>
+          <li>
+            <a class="menu" href="#"
+              ><span><i class="fa-solid fa-comment fa-lg"></i></span>
+              <p>Komentar</p></a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><span><i class="fa-solid fa-keyboard fa-lg"></i></span>
+              <p>Subtitel</p></a
+            >
+          </li>
+          <li>
+            <a class="menu" href="#"
+              ><span><i class="fa-regular fa-copyright fa-lg"></i></span>
+              <p>Hak Cipta</p></a
+            >
+          </li>
+          <li>
+            <a class="menu" href="#"
+              ><span><i class="fa-solid fa-dollar-sign fa-lg"></i></span>
+              <p>Penghasilan</p></a
+            >
+          </li>
+          <li>
+            <a class="menu" href="#"
+              ><span
+                ><i class="fa-solid fa-wand-magic-sparkles fa-lg"></i
+              ></span>
+              <p>Penyesuaian</p></a
+            >
+          </li>
+          <li>
+            <a class="menu" href="#"
+              ><span><i class="fa-regular fa-file-audio fa-lg"></i></span>
+              <p>Koleksi Audio</p></a
+            >
+          </li>
+        </ul>
+
+        <ul>
+          <li>
+            <a class="menu" href="#"
+              ><span><i class="fa-solid fa-gear"></i></span>
+              <p>Setelan</p></a
+            >
+          </li>
+          <li>
+            <a class="menu" href="#"
+              ><span><i class="fa-solid fa-exclamation"></i></span>
+              <p>Kirim Masukan</p></a
+            >
+          </li>
+        </ul>
+      </section>
+      <!-- Sidebar -->
+
+      <!-- Dasbor -->
+      <div class="dasbor-container" id="dasbor">
+        <header>
+          <span>Dasbor channel</span>
+          <ul class="dasbor-tool">
+            <li>
+              <a href="#"><i class="fa-solid fa-upload"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-solid fa-tv"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-regular fa-pen-to-square"></i></a>
+            </li>
+          </ul>
+        </header>
+        <main>
+          <section class="card-1">
+            <p class="card-1-title">Performa video Shorts terbaru</p>
+            <img src="/Youtube-Dashboard/assets/imgvid.jpg" alt="" />
+            <span id="card-1-video-title">Wallpaper</span>
+
+            <ul>
+              <li><i class="fa-solid fa-chart-simple"></i>3.4 rb</li>
+              <li><i class="fa-regular fa-message"></i>0</li>
+              <li><i class="fa-regular fa-thumbs-up"></i>24</li>
+              <li><a href="" class="card-1-dropdown-button">
+                <i class="fa-solid fa-angle-up" id="up"></i
+                ><i class="fa-solid fa-angle-down" id="down"></i></a>
+              </li>
+            </ul>
+            <div class="card-1-dropdown">
+              <p>183 hari 19 jam pertama</p>
+              <p><span>penayangan</span><span>3,4 rb</span></p>
+              <p>
+                <span>Persentase penayangan rata-rata</span><span>88,2%</span>
+              </p>
+              <p><span>Suka</span><span>24</span></p>
+            </div>
+            <div class="card-1-link">
+              <p><a href="#">buka analisis video</a></p>
+              <p><a href="#">lihat komentar (0)</a></p>
+            </div>
+          </section>
+          <section></section>
+          <section></section>
+        </main>
+        <footer></footer>
+      </div>
+      <!-- Dasbor -->
+    </div>
+    <script src="/Youtube-Dashboard/src/script.js"></script>
+  </body>
+</html>

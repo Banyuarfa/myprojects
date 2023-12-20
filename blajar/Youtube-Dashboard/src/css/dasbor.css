@@ -1,0 +1,115 @@
+.dasbor-container {
+  position: absolute;
+  left: 100px;
+  z-index: -600;
+  width: 70%;
+  height: 100%;
+  padding-right: 25px;
+}
+
+ul {
+  list-style: none;
+}
+
+.dasbor-container header {
+  position: relative;
+  height: 75px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dasbor-container header span {
+  font-size: x-large;
+  font-weight: bold;
+}
+.dasbor-container header .dasbor-tool {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+}
+.dasbor-container header .dasbor-tool li {
+  background-color: #282828;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  width: 35px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+}
+.dasbor-container header .dasbor-tool li a i:hover {
+  color: aliceblue;
+}
+
+.dasbor-container .card-1 {
+  background-color: #282828;
+  width: 230px;
+  height: 425px;
+  border: solid 1px rgb(70, 70, 70);
+  position: relative;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  font-size: 0.7rem;
+  padding: 25px;
+}
+.dasbor-container .card-1 .card-1-title {
+  font-size: 1rem;
+  font-weight: bold;
+  height: 36px;
+}
+.dasbor-container .card-1 img {
+  width: 230px;
+}
+.dasbor-container .card-1 #card-1-video-title {
+  position: absolute;
+  top: 150px;
+  left: 50px;
+  font-weight: bold;
+  font-size: larger;
+}
+.dasbor-container .card-1 ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  border-bottom: solid 1px #686868;
+}
+.dasbor-container .card-1 ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.dasbor-container .card-1 #down {
+  display: none;
+}
+.dasbor-container .card-1 .card-1-dropdown {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.dasbor-container .card-1 .card-1-dropdown p {
+  display: flex;
+  justify-content: space-between;
+}
+.dasbor-container .card-1 .card-1-link {
+  height: 55px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: medium;
+  font-weight: bold;
+}
+.dasbor-container .card-1 .card-1-link p a {
+  text-decoration: none;
+  color: dodgerblue;
+}

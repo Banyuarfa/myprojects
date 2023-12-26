@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  /* color: aliceblue; */
+}
+body{
+  display: flex;
+  justify-content: center;
+  min-width: min-content;
+}
+/* .body{
+  
+} */
+a {
+  color: #3391ff;
+  text-decoration: none;
+  font-size: small;
+  font-weight: bold;
+}
+p {
+  font-size: small;
+}
+
+h1 {
+  background-color: royalblue;
+  padding: 0.1em;
+  color: aliceblue;
+  cursor: default;
+}
+/* NavBar */
+nav {
+  background-color: rgb(20, 60, 180);
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 2em;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+nav ul li {
+  list-style: none;
+  font-size: small;
+  font-weight: bold;
+  padding: 8px 0.5em;
+  position: relative;
+}
+nav ul li:hover {
+  background-color: rgb(10, 30, 100);
+  display: block;
+}
+nav ul li p {
+  color: aliceblue;
+  cursor: pointer;
+}
+nav section {
+  display: flex;
+  padding: 0 0.5em;
+}
+nav section select,
+option {
+  color: black;
+}
+nav section input {
+  width: 20em;
+}
+.dropdown-container {
+  background-color: rgb(10, 30, 100);
+  text-wrap: nowrap;
+  position: absolute;
+  top: 2.4em;
+  left: 0;
+  display: none;
+}
+.dropdown-container p,
+.dropdown-container a {
+  color: aliceblue;
+  text-decoration: none;
+  padding: 0.4em;
+  font-size: small;
+  font-weight: lighter;
+}
+.dropdown-container p:hover {
+  background-color: rgb(20, 60, 180);
+}
+nav ul li:hover .dropdown-container {
+  display: block;
+}
+/* NavBar */
+/* main */
+main {
+  border: 1px rgb(120, 120, 120) solid;
+  display: grid;
+  grid-template-columns: auto auto 21em;
+  grid-template-rows: auto auto auto;
+  grid-template-areas:
+    "a a a"
+    "b b c"
+    "b b c";
+}
+main section:first-child {
+  border: 1px rgb(120, 120, 120) solid;
+  grid-area: a;
+}
+main section:first-child p {
+  font-weight: bold;
+  padding: 0.3em;
+}
+main section:nth-child(2) {
+  border: 1px rgb(120, 120, 120) solid;
+  grid-area: b;
+}
+main section:last-child {
+  border: 1px rgb(120, 120, 120) solid;
+  padding: 0.5em;
+  grid-area: c;
+}
+.top-anime-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #cfcfcf;
+}
+.top-anime-container .title {
+  display: flex;
+  justify-content: space-between;
+  background-color: #555555;
+  color: aliceblue;
+  padding: 0.2em;
+  font-weight: bold;
+  font-size: small;
+}
+.top-anime {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0.5em;
+}
+.top-anime .rank {
+  font-size: larger;
+}
+.top-anime img {
+  height: 6em;
+  width: 4em;
+}
+.top-anime-description{
+  width: 10em;
+}
+.top-anime-description a {
+  text-wrap: wrap;
+}

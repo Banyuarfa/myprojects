@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UynabAnimeList</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="body">
+      <h1>UynabAnimeList</h1>
+
+      <nav>
+        <ul>
+          <li>
+            <p>Anime</p>
+            <div class="dropdown-container">
+              <p><a href="">Anime Search</a></p>
+              <p><a href="">Top Anime</a></p>
+              <p><a href="">Seasonal Anime</a></p>
+              <p><a href="">Videos</a></p>
+              <p><a href="">Reviews</a></p>
+              <p><a href="">Recommendations</a></p>
+            </div>
+          </li>
+          <li>
+            <p>Manga</p>
+            <div class="dropdown-container">
+              <p><a href="">Manga Search</a></p>
+              <p><a href="">Top Manga</a></p>
+              <p><a href="">Seasonal Manga</a></p>
+              <p><a href="">Manga Store</a></p>
+              <p><a href="">Reviews</a></p>
+              <p><a href="">Recommendations</a></p>
+            </div>
+          </li>
+          <li>
+            <p>Community</p>
+            <div class="dropdown-container">
+              <p><a href="">Forums</a></p>
+              <p><a href="">Clubs</a></p>
+              <p><a href="">Blogs</a></p>
+              <p><a href="">Users</a></p>
+            </div>
+          </li>
+          <li>
+            <p>Industry</p>
+            <div class="dropdown-container">
+              <p><a href="">News</a></p>
+              <p><a href="">People</a></p>
+              <p><a href="">Characters</a></p>
+            </div>
+          </li>
+          <li>
+            <p>Watch</p>
+            <div class="dropdown-container">
+              <p><a href="">Episode Videos</a></p>
+            </div>
+          </li>
+          <li>
+            <p>read</p>
+            <div class="dropdown-container">
+              <p><a href="">Manga Store</a></p>
+            </div>
+          </li>
+        </ul>
+        <section>
+          <select name="categories" id="categories">
+            <option value="">All</option>
+            <option value="anime">Anime</option>
+            <option value="manga">Manga</option>
+            <option value="characters">Characters</option>
+            <option value="people">People</option>
+            <option value="magazines">News</option>
+            <option value="users">Users</option>
+          </select>
+          <input
+            placeholder="Search Anime, Manga, and more..."
+            type="search"
+            name="cari"
+            id="cari"
+          />
+        </section>
+      </nav>
+      <main>
+        <section>
+          <p>Welcome to UynabAnimeList!</p>
+        </section>
+        <section></section>
+        <section>
+          <div class="top-anime-container">
+            <div class="title">
+              <p>Top Airing Anime</p>
+              <a href="">More</a>
+            </div>
+            <div class="top-anime-list"></div>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

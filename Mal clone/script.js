@@ -8,7 +8,6 @@ async function getTopAnime() {
 
 function topAnimeUI(animes) {
   let cards = "";
-
   for (let i = 0; i < animes.length; i++) {
     const anime = animes[i];
     cards += showTopAnime(anime, i);
